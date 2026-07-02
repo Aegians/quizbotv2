@@ -354,6 +354,7 @@ ctx.registerCommand({
     args = "<song name>",
     info = "Add a song to the Spotify queue",
     category = "Spotify",
+    permission = "all",
     fn = function(args)
         if args == "" then
             ctx.consoleWarn("Usage: /queue <song name>")
