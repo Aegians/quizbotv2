@@ -618,6 +618,7 @@ local modules = {
     "cmd_quiz.lua",
     "cmd_categories.lua",
     "cmd_quizgame.lua",
+    "cmd_ui.lua",
 }
 
 for _, name in ipairs(modules) do
